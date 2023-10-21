@@ -22,7 +22,6 @@ const components = [FeedListComponent, FeedItemComponent, FeedUploadComponent, F
   ],
   declarations: components,
   exports: components,
-  entryComponents: entryComponents,
   providers: [FeedProviderService]
 })
 export class FeedModule {}
