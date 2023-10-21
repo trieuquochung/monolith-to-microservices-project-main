@@ -31,4 +31,4 @@ after_success:
   - docker push hungtrieuce/udagram-api-feed:v1
   - docker push hungtrieuce/udagram-api-user:v1
   - docker push hungtrieuce/udagram-frontend:v1
-  - docker push hungtrieuce/udagram-reverseproxy:v1s  
+  - docker push hungtrieuce/udagram-reverseproxy:v1
