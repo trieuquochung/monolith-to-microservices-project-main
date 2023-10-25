@@ -16,9 +16,9 @@ spec:
       name: backend-user
     spec:
       containers:
-      - image: hungtrieuce/reverseproxy:latest
+      - image: hungtrieuce/udagram-reverseproxy:v1
         name: reverseproxy
-        imagePullPolicy: Always          
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "64Mi"

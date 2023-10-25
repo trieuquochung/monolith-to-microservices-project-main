@@ -1,3 +1,4 @@
+
 kubectl delete deployment backend-user
 kubectl delete services backend-user
 kubectl delete deployment backend-feed
